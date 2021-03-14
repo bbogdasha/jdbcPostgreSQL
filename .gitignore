@@ -5,3 +5,6 @@ connection/.idea
 
 preparedStatements/target/
 preparedStatements/.idea
+
+retrievingData/target/
+retrievingData/.idea
