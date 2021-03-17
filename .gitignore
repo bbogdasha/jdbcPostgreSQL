@@ -8,3 +8,9 @@ preparedStatements/.idea
 
 retrievingData/target/
 retrievingData/.idea
+
+multipleStatements/target/
+multipleStatements/.idea
+
+metadata/target/
+metadata/.idea
