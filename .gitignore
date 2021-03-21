@@ -20,3 +20,6 @@ transaction/.idea
 
 batchUpdate/target/
 batchUpdate/.idea
+
+dataExportImport/target/
+dataExportImport/.idea
