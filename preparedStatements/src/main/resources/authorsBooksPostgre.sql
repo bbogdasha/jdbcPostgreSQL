@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS books, authors, testing, images;
+DROP TABLE IF EXISTS books, authors;
 
 CREATE TABLE IF NOT EXISTS authors (
     id serial PRIMARY KEY,
@@ -9,9 +9,6 @@ CREATE TABLE IF NOT EXISTS books (
     id serial PRIMARY KEY,
     author_id INT REFERENCES authors(id), title VARCHAR(100)
 );
-
-CREATE TABLE IF NOT EXISTS testing(id INT);
-CREATE TABLE IF NOT EXISTS images(id serial, data bytea);
 
 INSERT INTO authors(id, name) VALUES(1, 'Jack London');
 INSERT INTO authors(id, name) VALUES(2, 'Alexandre Dumas');
