@@ -50,3 +50,20 @@ No changes are committed to the database.
 As a result we get this message:
 
 <img src="https://github.com/bbogdasha/jdbcPostgreSQL/blob/main/transaction/screen/transaction.png" width="600">
+
+And checked the database:
+
+```postgres=# select name, title from authors, books where authors.id=books.author_id;
+      name       |           title
+-----------------+---------------------------
+ Alexandre Dumas | The Count of Monte Cristo
+ Caesar          | The conquest of Gaul
+ Jack London     | Martin Eden
+ Ronald Tolkien  | The Lord of the ring
+ Leo Tolstoy     | War and Peace
+ Alexandre Dumas | Queen Margot
+ Jack London     | The Sea-Wolf
+ Jack London     | Hearts of Three
+ Ronald Tolkien  | Hobbit
+(9 rows)
+```
