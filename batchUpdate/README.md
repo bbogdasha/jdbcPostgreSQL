@@ -34,3 +34,17 @@ This method returns an array of committed changes.
 As a result we get the message:
 
 <img src="https://github.com/bbogdasha/jdbcPostgreSQL/blob/main/batchUpdate/screen/batchUpdate.png" width="400">
+
+And checked the database:
+
+```
+postgres=# select * from readers;
+ id | name
+----+-------
+  1 | Carl
+  2 | Emily
+  3 | Tom
+  4 | Ban
+  5 | Jany
+(5 rows)
+```
